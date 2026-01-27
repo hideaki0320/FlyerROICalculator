@@ -1,0 +1,5 @@
+{
+  "name": "Renovation ROI Simulator",
+  "description": "A simulation tool for renovation campaigns, visualizing the profit impact of upselling from door-knock products to full kitchen sets.",
+  "requestFramePermissions": []
+}
