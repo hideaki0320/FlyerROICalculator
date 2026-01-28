@@ -134,7 +134,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ state }) => {
             <FileCheck size={20} className="text-slate-400"/>
             利益構造ビジュアル
           </h3>
-          <div className="h-64 flex-1">
+          <div className="h-80 w-full min-h-[300px]">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={structureData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" vertical={false} />
@@ -161,7 +161,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ state }) => {
             <TrendingUp size={20} className="text-slate-400"/>
             損益分岐シミュレーション (反響率)
           </h3>
-          <div className="h-64 flex-1">
+          <div className="h-80 w-full min-h-[300px]">
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={breakEvenData} margin={{ top: 5, right: 30, left: 10, bottom: 5 }}>
                 <CartesianGrid strokeDasharray="3 3" vertical={false} />
